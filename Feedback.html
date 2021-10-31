@@ -1,0 +1,60 @@
+<html>   
+	<head>
+		<title> Feedback Page	</title>	
+		
+		<link href="template.css" rel="stylesheet">
+		
+		<style>
+		
+			form
+			{
+				border:2px solid gray;
+				width:300px;
+				height:150px;
+				margin:50px;
+				padding:40px;
+			}
+			
+			h1
+			{
+				margin:30px;
+			}
+			
+		</style>
+		
+		<script>
+			function show()
+			{
+				alert ("Thank you for your feedback!");
+			}
+		</script>
+	</head>
+	
+	<body>
+	
+		<div id="link">
+		<ul>
+			<li> <a href="index.html"> Home </a> </li>
+			<li> <a href="ContactUs.html"> ContactUs </a> </li>
+			<li> <a href="Feedback.html"> Feedback </a> </li>
+			<li style="float:right"> <a href="Register.html">Sign Up </a> </li>
+			<li style="float:right"> <a href="Login.html">Sign In </a> </li>
+		</ul>
+		</div>
+	
+		<center>
+		<h1> Please Type Feedback Here </h1>
+		<form>
+		Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"> <br><br>
+		Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"> <br><br>
+		Feedback:&nbsp; <input type="textarea"><br><br>
+		
+		<button onclick="show()"> Send </button>
+		
+		</form>
+		</center>
+	</body>
+
+</html>  
+
+
